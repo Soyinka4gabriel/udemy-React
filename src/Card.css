@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    height: 300px;
+    width: 180px;
+    margin: 20px;
+    background-color: #fff;
+    border:  5px solid black;
+    box-shadow:  0 0 0 7px;
+    color: #000;
+    padding: 10px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card h2{
+    margin-bottom:  auto;
+}
+
+.card p{
+    margin-top: auto;
+    overflow: auto;
+}
+
+.con{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow: auto;
+}
